@@ -13,7 +13,7 @@ def readCsv(path):
     except FileNotFoundError:
         print('The requested file does not exist, check file path. File path: ' + path)
 
-        return
+        return []
 
     return csvDataList
 
